@@ -4,6 +4,7 @@ Python bindings for the repl.it API.
 This code is licensed under the GNU GPL v 3.0.
 '''
 
+import .api_pb2
 import api_pb2
 import requests
 import websocket

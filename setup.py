@@ -14,5 +14,5 @@ setuptools.setup(name="pyreplit",
     author_email="marcus@marcusweinberger.com",
     packages=setuptools.find_packages(),
     zip_safe=False,
-    install_requires=read(os.path.join('pyrepl','requirements')).split('\n'),
+    install_requires=read('requirements.txt').split('\n'),
 )

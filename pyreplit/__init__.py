@@ -3,8 +3,6 @@ PyRepl v 0.5 by sugarfi
 Python bindings for the repl.it API.
 This code is licensed under the GNU GPL v 3.0.
 '''
-
-import api_pb2
 from . import api_pb2
 import api_pb2
 import requests

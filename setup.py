@@ -2,7 +2,7 @@ import setuptools
 import os
 
 setuptools.setup(name="pyreplit",
-    version="0.2.3",
+    version="0.2.4",
     description="Fork of sugarfi/pyrepl",
     long_description=open('README.md','r').read(),
     long_description_content_type="text/markdown",
